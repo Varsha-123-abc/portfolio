@@ -429,8 +429,8 @@
 
                 </div>
 
-                <span class="project-status progress">
-                    ● In Progress
+                <span class="project-status completed">
+                    ● Completed
                 </span>
 
             </div>
@@ -438,9 +438,12 @@
 
             <p class="project-description">
 
-                A machine-learning-based intrusion detection system
-                designed to analyze network traffic and identify
-                suspicious activity and common attack categories.
+                 An AI-powered Intrusion Detection System built using a two-stage
+                 Random Forest architecture to detect malicious network traffic
+                 and classify attacks into DoS, Probe, R2L, and U2R categories.
+                 The system includes a SOC-style Flask dashboard, persistent SQLite
+                 detection history, CSV/PDF reporting, Docker deployment, automated
+                 Pytest testing, and GitHub Actions CI.
 
             </p>
 
@@ -453,54 +456,77 @@
 
                 <div class="project-tags">
 
-                    <span>Python</span>
-                    <span>Scikit-learn</span>
-                    <span>Machine Learning</span>
-                    <span>Flask</span>
-                    <span>FastAPI</span>
-                    <span>Docker</span>
-                    <span>GitHub Actions</span>
+    <span>Python</span>
+    <span>Scikit-learn</span>
+    <span>Random Forest</span>
+    <span>Flask</span>
+    <span>SQLite</span>
+    <span>Docker</span>
+    <span>Pytest</span>
+    <span>GitHub Actions</span>
 
-                </div>
+</div>
 
             </div>
 
+               <!-- Project screenshots -->
 
-            <!-- Planned features -->
+              <div class="project-images">
+
+                <img
+                    src="images/ids-dashboard.png"
+                    alt="AI Intrusion Detection System Dashboard"
+                    onclick="openImage(this.src)"
+                >
+
+                <img
+                    src="images/ids-detection-history.png"
+                    alt="AI IDS Detection History"
+                    onclick="openImage(this.src)"
+                >
+
+                <img
+                    src="images/ids-github-actions.png"
+                    alt="AI IDS GitHub Actions CI"
+                    onclick="openImage(this.src)"
+                >
+
+            </div>
+              
+
+
+            <!-- Key features -->
 
             <div class="project-features">
 
-                <h3>Planned Features</h3>
+                <h3>Key Features</h3>
 
-                <ul>
-
-                    <li>
-                        Network traffic analysis
-                    </li>
-
-                    <li>
-                        Machine-learning-based attack detection
-                    </li>
-
-                    <li>
-                        DoS and Probe attack detection
-                    </li>
-
-                    <li>
-                        R2L and U2R attack classification
-                    </li>
-
-                    <li>
-                        Dockerized deployment
-                    </li>
-
-                    <li>
-                        Automated CI/CD pipeline
-                    </li>
-
-                </ul>
-
+                 <ul>
+    <li>Two-stage machine learning attack detection</li>
+    <li>Detection of DoS, Probe, R2L and U2R attack categories</li>
+    <li>SOC-style monitoring dashboard</li>
+    <li>Attack probability, confidence and risk scoring</li>
+    <li>Persistent SQLite-based detection history</li>
+    <li>CSV and PDF report generation</li>
+    <li>Dockerized deployment with persistent storage</li>
+    <li>Automated Pytest testing and GitHub Actions CI</li>
+</ul>
             </div>
+
+             <!-- GitHub -->
+
+<div class="project-links">
+
+    <a
+        href="https://github.com/Varsha-123-abc/AI-Intrusion-Detection-System"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="github-button"
+    >
+        View on GitHub →
+    </a>
+
+</div>
 
         </div>
 
